@@ -7,7 +7,7 @@ Euler-Mascheroni Constant
 The Euler-Mascheroni constant `gamma` (also known as "Euler's constant" or "the Euler constant") is defined as the limit of the sequence
 
 <div align="center">
-	<img src="https://github.com/compute-io/const-eulergamma/blob/master/docs/img/eqn.png" alt="Equation for the Euler-Mascheroni constant." height="48px">
+	<img src="https://github.com/compute-io/const-eulergamma/blob/master/docs/img/eqn.png" alt="Equation for the Euler-Mascheroni constant." height="64px">
 	<br>
 </div>
 
