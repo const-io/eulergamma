@@ -1,8 +1,17 @@
-const-eulergamma
+Euler-Mascheroni Constant
 ===
 [![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Coverage Status][coveralls-image]][coveralls-url] [![Dependencies][dependencies-image]][dependencies-url]
 
-> The Euler-Mascheroni constant.
+> The [Euler-Mascheroni](http://mathworld.wolfram.com/Euler-MascheroniConstant.html) constant.
+
+The Euler-Mascheroni constant `gamma` (also known as "Euler's constant" or "the Euler constant") is defined as the limit of the sequence
+
+<div align="center">
+	<img src="https://github.com/compute-io/const-eulergamma/blob/master/docs/img/eqn.png" alt="Equation for the Euler-Mascheroni constant." height="48px">
+	<br>
+</div>
+
+
 
 
 ## Installation
@@ -17,18 +26,25 @@ For use in the browser, use [browserify](https://github.com/substack/node-browse
 ## Usage
 
 ``` javascript
-var foo = require( 'compute-const-eulergamma' );
+var gamma = require( 'compute-const-eulergamma' );
 ```
 
-#### foo( arr )
+#### gamma
 
-What does this function do?
+The [Euler-Mascheroni](http://mathworld.wolfram.com/Euler-MascheroniConstant.html) constant.
+
+``` javascript
+gamma === 0.5772156649015329;
+```
 
 
 ## Examples
 
 ``` javascript
-var foo = require( 'compute-const-eulergamma' );
+var gamma = require( 'compute-const-eulergamma' );
+
+console.log( gamma );
+// returns 0.5772156649015329
 ```
 
 To run the example code from the top-level application directory,
