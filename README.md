@@ -11,6 +11,10 @@ The Euler-Mascheroni constant `gamma` (also known as "Euler's constant" or "the 
 	<br>
 </div>
 
+<div class="equation" align="center" data-raw-text="\gamma = \lim_{n\to\infty} \left( \sum_{k=1}^n \frac{1}{k} - \ln n \right )" data-equation=“eq:const_eulergamma>
+	<img src="https://cdn.rawgit.com/compute-io/cosine-distance/e749d08c4307235ab3f26fa8ff75363183293c39/docs/img/eqn.svg" alt="Equation for the Euler-Mascheroni constant.">
+	<br>
+</div>
 
 
 
@@ -85,7 +89,7 @@ $ make view-cov
 ---
 ## License
 
-[MIT license](http://opensource.org/licenses/MIT). 
+[MIT license](http://opensource.org/licenses/MIT).
 
 
 ## Copyright
