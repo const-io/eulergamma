@@ -7,7 +7,7 @@ Euler-Mascheroni Constant
 The Euler-Mascheroni constant `gamma` (also known as "Euler's constant" or "the Euler constant") is defined as the limit of the sequence
 
 
-<div class="equation" align="center" data-raw-text="\gamma = \lim_{n\to\infty} \left( \sum_{k=1}^n \frac{1}{k} - \ln n \right )" data-equation=“eq:const_eulergamma>
+<div class="equation" align="center" data-raw-text="\gamma = \lim_{n\to\infty} \left( \sum_{k=1}^n \frac{1}{k} - \ln n \right)" data-equation="eq:const_eulergamma">
 	<img src="https://cdn.rawgit.com/compute-io/const-eulergamma/03a49a9a31f1b486b6146864622113811f48d56a/docs/img/eqn.svg" alt="Equation for the Euler-Mascheroni constant.">
 	<br>
 </div>
