@@ -1,27 +1,19 @@
-/* global require, describe, it */
 'use strict';
 
 // MODULES //
 
-var // Expectation library:
-	chai = require( 'chai' ),
-
-	// Module to be tested:
-	CONST = require( './../lib' );
-
-
-// VARIABLES //
-
-var expect = chai.expect,
-	assert = chai.assert;
+var tape = require( 'tape' );
+var GAMMA = require( './../lib' );
 
 
 // TESTS //
 
-describe( 'compute-const-eulergamma', function tests() {
+tape( 'main export is a number', function test( t ) {
+	t.equal( typeof GAMMA, 'number', 'main export is a number' );
+	t.end();
+});
 
-	it( 'should export a number', function test() {
-		expect( CONST ).to.be.a( 'number' );
-	});
-
+tape( 'the exported value is 0.5772156649015329', function test( t ) {
+	t.equal( GAMMA, 0.5772156649015329, 'returns 0.5772156649015329' );
+	t.end();
 });

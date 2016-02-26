@@ -1,5 +1,6 @@
 'use strict';
 
-var gamma = require( './../lib' );
+var GAMMA = require( './../lib' );
 
-console.log( gamma );
+console.log( GAMMA );
+// returns 0.5772156649015329

@@ -1,17 +1,15 @@
 Euler-Mascheroni Constant
 ===
-[![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Coverage Status][coveralls-image]][coveralls-url] [![Dependencies][dependencies-image]][dependencies-url]
+[![NPM version][npm-image]][npm-url] [![Build Status][build-image]][build-url] [![Coverage Status][coverage-image]][coverage-url] [![Dependencies][dependencies-image]][dependencies-url]
 
-> The [Euler-Mascheroni](http://mathworld.wolfram.com/Euler-MascheroniConstant.html) constant.
+> The [Euler-Mascheroni][eulergamma] constant.
 
-The Euler-Mascheroni constant `gamma` (also known as "Euler's constant" or "the Euler constant") is defined as the limit of the sequence
-
+The [Euler-Mascheroni][eulergamma] constant `gamma` (also known as "Euler's constant" or "the Euler constant") is defined as the limit of the sequence
 
 <div class="equation" align="center" data-raw-text="\gamma = \lim_{n\to\infty} \left( \sum_{k=1}^n \frac{1}{k} - \ln n \right)" data-equation="eq:const_eulergamma">
-	<img src="https://cdn.rawgit.com/compute-io/const-eulergamma/03a49a9a31f1b486b6146864622113811f48d56a/docs/img/eqn.svg" alt="Equation for the Euler-Mascheroni constant.">
+	<img src="https://cdn.rawgit.com/const-io/eulergamma/03a49a9a31f1b486b6146864622113811f48d56a/docs/img/eqn.svg" alt="Equation for the Euler-Mascheroni constant.">
 	<br>
 </div>
-
 
 
 ## Installation
@@ -20,30 +18,28 @@ The Euler-Mascheroni constant `gamma` (also known as "Euler's constant" or "the 
 $ npm install compute-const-eulergamma
 ```
 
-For use in the browser, use [browserify](https://github.com/substack/node-browserify).
-
 
 ## Usage
 
 ``` javascript
-var gamma = require( 'compute-const-eulergamma' );
+var GAMMA = require( 'compute-const-eulergamma' );
 ```
 
-#### gamma
+#### GAMMA
 
-The [Euler-Mascheroni](http://mathworld.wolfram.com/Euler-MascheroniConstant.html) constant.
+The [Euler-Mascheroni][eulergamma] constant.
 
 ``` javascript
-gamma === 0.5772156649015329;
+GAMMA === 0.5772156649015329;
 ```
 
 
 ## Examples
 
 ``` javascript
-var gamma = require( 'compute-const-eulergamma' );
+var GAMMA = require( 'compute-const-eulergamma' );
 
-console.log( gamma );
+console.log( GAMMA );
 // returns 0.5772156649015329
 ```
 
@@ -54,11 +50,12 @@ $ node ./examples/index.js
 ```
 
 
+---
 ## Tests
 
 ### Unit
 
-Unit tests use the [Mocha](http://mochajs.org/) test framework with [Chai](http://chaijs.com) assertions. To run the tests, execute the following command in the top-level application directory:
+This repository uses [tape][tape] for unit tests. To run the tests, execute the following command in the top-level application directory:
 
 ``` bash
 $ make test
@@ -69,7 +66,7 @@ All new feature development should have corresponding unit tests to validate cor
 
 ### Test Coverage
 
-This repository uses [Istanbul](https://github.com/gotwarlost/istanbul) as its code coverage tool. To generate a test coverage report, execute the following command in the top-level application directory:
+This repository uses [Istanbul][istanbul] as its code coverage tool. To generate a test coverage report, execute the following command in the top-level application directory:
 
 ``` bash
 $ make test-cov
@@ -82,6 +79,23 @@ $ make view-cov
 ```
 
 
+### Browser Support
+
+This repository uses [Testling][testling] for browser testing. To run the tests in a (headless) local web browser, execute the following command in the top-level application directory:
+
+``` bash
+$ make test-browsers
+```
+
+To view the tests in a local web browser,
+
+``` bash
+$ make view-browser-tests
+```
+
+<!-- [![browser support][browsers-image]][browsers-url] -->
+
+
 ---
 ## License
 
@@ -90,23 +104,30 @@ $ make view-cov
 
 ## Copyright
 
-Copyright &copy; 2015. Athan Reines.
+Copyright &copy; 2015-2016. The [Compute.io][compute-io] Authors.
 
 
 [npm-image]: http://img.shields.io/npm/v/compute-const-eulergamma.svg
 [npm-url]: https://npmjs.org/package/compute-const-eulergamma
 
-[travis-image]: http://img.shields.io/travis/compute-io/const-eulergamma/master.svg
-[travis-url]: https://travis-ci.org/compute-io/const-eulergamma
+[travis-image]: http://img.shields.io/travis/const-io/eulergamma/master.svg
+[travis-url]: https://travis-ci.org/const-io/eulergamma
 
-[coveralls-image]: https://img.shields.io/coveralls/compute-io/const-eulergamma/master.svg
-[coveralls-url]: https://coveralls.io/r/compute-io/const-eulergamma?branch=master
+[coveralls-image]: https://img.shields.io/coveralls/const-io/eulergamma/master.svg
+[coveralls-url]: https://coveralls.io/r/const-io/eulergamma?branch=master
 
-[dependencies-image]: http://img.shields.io/david/compute-io/const-eulergamma.svg
-[dependencies-url]: https://david-dm.org/compute-io/const-eulergamma
+[dependencies-image]: http://img.shields.io/david/const-io/eulergamma.svg
+[dependencies-url]: https://david-dm.org/const-io/eulergamma
 
-[dev-dependencies-image]: http://img.shields.io/david/dev/compute-io/const-eulergamma.svg
-[dev-dependencies-url]: https://david-dm.org/dev/compute-io/const-eulergamma
+[dev-dependencies-image]: http://img.shields.io/david/dev/const-io/eulergamma.svg
+[dev-dependencies-url]: https://david-dm.org/dev/const-io/eulergamma
 
-[github-issues-image]: http://img.shields.io/github/issues/compute-io/const-eulergamma.svg
-[github-issues-url]: https://github.com/compute-io/const-eulergamma/issues
+[github-issues-image]: http://img.shields.io/github/issues/const-io/eulergamma.svg
+[github-issues-url]: https://github.com/const-io/eulergamma/issues
+
+[tape]: https://github.com/substack/tape
+[istanbul]: https://github.com/gotwarlost/istanbul
+[testling]: https://ci.testling.com
+
+[eulergamma]: http://mathworld.wolfram.com/Euler-MascheroniConstant.html
+[compute-io]: https://github.com/compute-io
