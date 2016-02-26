@@ -15,14 +15,14 @@ The [Euler-Mascheroni][eulergamma] constant `gamma` (also known as "Euler's cons
 ## Installation
 
 ``` bash
-$ npm install compute-const-eulergamma
+$ npm install const-eulergamma
 ```
 
 
 ## Usage
 
 ``` javascript
-var GAMMA = require( 'compute-const-eulergamma' );
+var GAMMA = require( 'const-eulergamma' );
 ```
 
 #### GAMMA
@@ -37,7 +37,7 @@ GAMMA === 0.5772156649015329;
 ## Examples
 
 ``` javascript
-var GAMMA = require( 'compute-const-eulergamma' );
+var GAMMA = require( 'const-eulergamma' );
 
 console.log( GAMMA );
 // returns 0.5772156649015329
@@ -107,8 +107,8 @@ $ make view-browser-tests
 Copyright &copy; 2015-2016. The [Compute.io][compute-io] Authors.
 
 
-[npm-image]: http://img.shields.io/npm/v/compute-const-eulergamma.svg
-[npm-url]: https://npmjs.org/package/compute-const-eulergamma
+[npm-image]: http://img.shields.io/npm/v/const-eulergamma.svg
+[npm-url]: https://npmjs.org/package/const-eulergamma
 
 [build-image]: http://img.shields.io/travis/const-io/eulergamma/master.svg
 [build-url]: https://travis-ci.org/const-io/eulergamma
