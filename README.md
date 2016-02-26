@@ -110,11 +110,11 @@ Copyright &copy; 2015-2016. The [Compute.io][compute-io] Authors.
 [npm-image]: http://img.shields.io/npm/v/compute-const-eulergamma.svg
 [npm-url]: https://npmjs.org/package/compute-const-eulergamma
 
-[travis-image]: http://img.shields.io/travis/const-io/eulergamma/master.svg
-[travis-url]: https://travis-ci.org/const-io/eulergamma
+[build-image]: http://img.shields.io/travis/const-io/eulergamma/master.svg
+[build-url]: https://travis-ci.org/const-io/eulergamma
 
-[coveralls-image]: https://img.shields.io/coveralls/const-io/eulergamma/master.svg
-[coveralls-url]: https://coveralls.io/r/const-io/eulergamma?branch=master
+[coverage-image]: https://img.shields.io/codecov/c/github/const-io/eulergamma/master.svg
+[coverage-url]: https://codecov.io/github/const-io/eulergamma?branch=master
 
 [dependencies-image]: http://img.shields.io/david/const-io/eulergamma.svg
 [dependencies-url]: https://david-dm.org/const-io/eulergamma
