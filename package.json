@@ -1,6 +1,6 @@
 {
   "name": "compute-const-eulergamma",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "The Euler-Mascheroni constant.",
   "author": {
     "name": "Athan Reines",
